@@ -15,14 +15,16 @@ A demonstrate how to use social authentication with Django. Use the Allauth Soci
 
 ## Installation
 
+```bash
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver
+```
 
 ## Usage
 
-get the client id and secret key from the social media provider and add them through the Django admin panel. "/admin/socialaccount/socialapp/"
+get the client id and secret key from the social media provider and add them through the Django admin panel. `http://localhost:8000/admin/socialaccount/socialapp/`
 
 ![Admin Panel](screenshots/admin.png)
 
